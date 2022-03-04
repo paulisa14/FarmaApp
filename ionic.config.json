@@ -1,0 +1,7 @@
+{
+  "name": "FarmaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
