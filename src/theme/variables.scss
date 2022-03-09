@@ -3,6 +3,13 @@
 
 /** Ionic CSS Variables **/
 :root {
+/*Morado*/
+  --ion-color-morado: #8896FF;
+	--ion-color-morado-rgb: 136,150,255;
+	--ion-color-morado-contrast: #ffffff;
+	--ion-color-morado-contrast-rgb: 255,255,255;
+	--ion-color-morado-shade: #7884e0;
+	--ion-color-morado-tint: #94a1ff;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +240,13 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+
+.ion-color-morado {
+	--ion-color-base: var(--ion-color-morado);
+	--ion-color-base-rgb: var(--ion-color-morado-rgb);
+	--ion-color-contrast: var(--ion-color-morado-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-morado-contrast-rgb);
+	--ion-color-shade: var(--ion-color-morado-shade);
+	--ion-color-tint: var(--ion-color-morado-tint);
 }
