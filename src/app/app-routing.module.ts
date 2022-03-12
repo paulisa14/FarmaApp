@@ -67,6 +67,18 @@ const routes: Routes = [
     path: 'registro-opciones',
     loadChildren: () => import('./pages/registro-opciones/registro-opciones.module').then( m => m.RegistroOpcionesPageModule)
   },
+  {
+    path: 'registro-cliente',
+    loadChildren: () => import('./pages/registro-cliente/registro-cliente.module').then( m => m.RegistroClientePageModule)
+  },
+  {
+    path: 'codigo-cliente',
+    loadChildren: () => import('./pages/codigo-cliente/codigo-cliente.module').then( m => m.CodigoClientePageModule)
+  },
+  {
+    path: 'pedidos-cliente',
+    loadChildren: () => import('./pages/pedidos-cliente/pedidos-cliente.module').then( m => m.PedidosClientePageModule)
+  },
 ];
 
 @NgModule({
